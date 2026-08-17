@@ -1,0 +1,114 @@
+ArgusAgent 0.1.0-beta — THIRD-PARTY NOTICES
+============================================================
+
+This product bundles the third-party components listed below. Each remains
+licensed under its own terms, which are unaffected by the ArgusAgent Beta
+Evaluation Licence.
+
+annotated-types 0.8.0
+    Licence: MIT License
+
+anyio 4.14.2
+    Licence: see project metadata
+
+argus-agent 0.1.0
+    Licence: see project metadata
+
+attrs 26.1.0
+    Licence: see project metadata
+
+certifi 2026.7.22
+    Licence: MPL-2.0
+    Home:    https://github.com/certifi/python-certifi
+
+colorama 0.4.6
+    Licence: BSD License
+
+h11 0.16.0
+    Licence: MIT
+    Home:    https://github.com/python-hyper/h11
+
+httpcore 1.0.9
+    Licence: BSD License
+
+httpx 0.28.1
+    Licence: BSD-3-Clause
+
+idna 3.18
+    Licence: see project metadata
+
+jsonschema 4.26.0
+    Licence: see project metadata
+
+jsonschema-specifications 2025.9.1
+    Licence: see project metadata
+
+mando 0.7.1
+    Licence: MIT
+    Home:    https://mando.readthedocs.org/
+
+pydantic 2.13.4
+    Licence: see project metadata
+
+pydantic_core 2.46.4
+    Licence: see project metadata
+    Home:    https://github.com/pydantic/pydantic
+
+radon 6.0.1
+    Licence: MIT
+    Home:    https://radon.readthedocs.org/
+
+referencing 0.37.0
+    Licence: see project metadata
+
+rpds-py 2026.6.3
+    Licence: see project metadata
+
+six 1.17.0
+    Licence: MIT
+    Home:    https://github.com/benjaminp/six
+
+tree-sitter 0.25.2
+    Licence: MIT License
+
+tree-sitter-c 0.24.2
+    Licence: MIT
+
+tree-sitter-cpp 0.23.4
+    Licence: MIT
+
+tree-sitter-go 0.25.0
+    Licence: MIT
+
+tree-sitter-java 0.23.5
+    Licence: MIT
+
+tree-sitter-javascript 0.25.0
+    Licence: MIT
+
+tree-sitter-php 0.24.1
+    Licence: see project metadata
+
+tree-sitter-python 0.25.0
+    Licence: MIT
+
+tree-sitter-ruby 0.23.1
+    Licence: MIT
+
+tree-sitter-rust 0.24.2
+    Licence: MIT
+
+tree-sitter-typescript 0.23.2
+    Licence: MIT
+
+typing-inspection 0.4.4
+    Licence: see project metadata
+
+typing_extensions 4.16.0
+    Licence: see project metadata
+
+------------------------------------------------------------
+NOTE TO THE PUBLISHER: verify each entry against the dependency's own LICENSE
+file before distribution. Several licences require the full licence text to be
+reproduced, not merely named. This file lists what is bundled; it is not yet a
+complete attribution set.
