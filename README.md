@@ -41,23 +41,32 @@ problems*, and *was enough of the code actually examined to say so*.
 
 ## Install
 
-Download the archive from [Releases](https://github.com/XAgents-ai/argus-agent-releases/releases/latest),
-extract it, and run the executable. **No Python, pip, git or GitHub account required.**
+Download the package for your platform from
+[Releases](https://github.com/XAgents-ai/argus-agent-releases/releases/latest), extract it, and
+run the executable. **No Python, pip, git or GitHub account required.**
+
+| Platform | Package |
+|---|---|
+| Windows x64 | `argus-agent-0.1.0-beta-windows-x64.zip` |
+| macOS (Apple silicon) | `argus-agent-0.1.0-beta-macos-arm64.zip` |
+| Linux x64 | `argus-agent-0.1.0-beta-linux-x64.zip` |
 
 ```powershell
+# Windows
 .\argus.exe audit C:\path\to\my-project
 ```
 
-Verify your download against the published checksum:
-
-```powershell
-Get-FileHash .\argus.exe -Algorithm SHA256
+```bash
+# macOS / Linux
+chmod +x argus
+./argus audit /path/to/my-project
 ```
 
-The executable is unsigned, so Windows SmartScreen may warn on first run.
+Each package carries its own `SHA256SUMS.txt`. The executables are unsigned, so Windows
+SmartScreen and macOS Gatekeeper will warn on first run.
 
-**Platform:** the current beta is **Windows x64 only**. macOS and Linux builds are not yet
-published.
+All three are built and smoke-tested by a CI matrix — each binary must start and complete a real
+audit to a verdict before it is packaged.
 
 Full instructions are in `QUICKSTART.md` inside the archive.
 
