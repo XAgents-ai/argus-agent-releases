@@ -87,9 +87,14 @@ Never send code you are not free to share. Argus itself transmits nothing.
 
 ## Licence
 
-**Proprietary. This is not open-source software.** Released under a Beta Evaluation Licence:
-free to use for evaluation, no redistribution, no reverse engineering, no production use. The
-full terms are in `LICENSE.txt` inside the archive.
+**Proprietary — for now.** Released under a Beta Evaluation Licence: free to use and free to
+**share on** (pass the complete unmodified package to colleagues or classmates; don't charge for
+it, don't break it up, don't reverse engineer it, don't rely on it in production). Full terms in
+`LICENSE.txt`.
+
+**We intend to release ArgusAgent as open source under the MIT Licence once the precision
+validation is complete.** That is a statement of intent rather than a commitment, and it grants
+no MIT rights today.
 
 Bundled third-party open-source components remain under their own licences — see
 `THIRD-PARTY-NOTICES.txt`.
