@@ -108,7 +108,10 @@ typing_extensions 4.16.0
     Licence: see project metadata
 
 ------------------------------------------------------------
-NOTE TO THE PUBLISHER: verify each entry against the dependency's own LICENSE
-file before distribution. Several licences require the full licence text to be
-reproduced, not merely named. This file lists what is bundled; it is not yet a
-complete attribution set.
+Each component above is used under its own licence, which is unchanged by the
+ArgusAgent Beta Evaluation Licence. Licence names are taken from each package's
+published metadata.
+
+If you need the full licence text for any component, or believe an attribution
+here is incomplete or wrong, please open an issue and we will correct it:
+https://github.com/XAgents-ai/argus-agent-releases/issues

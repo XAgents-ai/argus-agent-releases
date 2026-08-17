@@ -1,107 +1,84 @@
 ArgusAgent — Beta Evaluation Licence
-Version 0.1.0-beta · 2026-08-17
+Version 0.1.0-beta
 
 Copyright (c) 2026 XAgents. All rights reserved.
 
-THIS IS NOT OPEN SOURCE SOFTWARE. It is proprietary software licensed to you for
-evaluation only, on the terms below.
+This is NOT open-source software. It is proprietary software, provided free of
+charge for evaluation only, on the terms below. Installing or running it means
+you accept them.
 
---------------------------------------------------------------------------------
-1. GRANT
---------------------------------------------------------------------------------
-Subject to your compliance with this licence, XAgents grants you a personal,
-non-exclusive, non-transferable, revocable, royalty-free licence to install and
-run this beta software ("the Software") solely to evaluate it on source code you
-own or are authorised to analyse.
 
---------------------------------------------------------------------------------
-2. RESTRICTIONS
---------------------------------------------------------------------------------
-You may NOT:
+1. WHAT YOU MAY DO
 
-  (a) redistribute, publish, sublicense, rent, lease, sell or otherwise transfer
-      the Software or any part of it to any third party;
-  (b) reverse engineer, decompile, disassemble, deobfuscate, or otherwise attempt
-      to derive the source code, algorithms or internal structure of the Software,
-      except to the extent this restriction is expressly prohibited by applicable
-      law;
-  (c) modify, adapt, translate or create derivative works of the Software;
-  (d) remove, obscure or alter any proprietary notice, licence text, or the
-      instrument-status notice the Software prints;
-  (e) use the Software to build, train or improve a competing product or service;
-  (f) use the Software in production, or rely on its output as assurance
-      evidence, certification, or a substitute for professional review.
+   Install and run ArgusAgent to evaluate it, on source code you own or are
+   allowed to analyse. Personal or internal use. No fee.
 
---------------------------------------------------------------------------------
-3. BETA STATUS AND ACCURACY — READ THIS
---------------------------------------------------------------------------------
-The Software is pre-release and its accuracy is UNPROVEN.
 
-The Software's own finding precision has not been independently validated. A human
-adjudication of its blocking findings was performed on 2026-08-17 across a
-five-repository validation corpus. Of 31 blocking findings, 0 were judged true
-positives, 26 were judged false positives and 5 were unresolved. That measurement
-did not clear the project's own >=80% precision gate, and the Software therefore
-prints an instrument-status notice on every run.
+2. WHAT YOU MAY NOT DO
 
-You must not treat any output of the Software as assurance, certification, audit
-evidence, or a statement of fitness for release.
+   - Redistribute it. Do not share, publish, upload, sell or pass on the
+     software or any part of it. Point people at the official download page
+     instead.
+   - Reverse engineer it. Do not decompile, disassemble or otherwise try to
+     recover the source code, except where the law expressly allows it despite
+     this term.
+   - Modify it, or build anything derived from it.
+   - Remove or alter the licence text, copyright notice, or the instrument-status
+     notice the software prints.
+   - Use it to build or improve a competing product.
+   - Rely on it in production, or present its output as assurance, certification,
+     or audit evidence.
 
---------------------------------------------------------------------------------
+
+3. THIS IS A BETA, AND ITS ACCURACY IS UNPROVEN
+
+   ArgusAgent's own accuracy has not been independently validated.
+
+   On 2026-08-17 a human reviewed every blocking finding ArgusAgent produced
+   across a five-repository test corpus. Of 31 findings: 0 were correct, 26 were
+   wrong, and 5 were unresolved. That did not meet the project's own 80% accuracy
+   target, and the software prints a notice saying so on every run.
+
+   Treat its output as a prompt to look, never as a verdict to act on.
+
+
 4. FEEDBACK
---------------------------------------------------------------------------------
-If you report a defect, a wrong finding, or a suggestion ("Feedback"), you grant
-XAgents a perpetual, irrevocable, worldwide, royalty-free licence to use that
-Feedback without restriction or obligation to you. Do not send Feedback that
-includes source code or data you are not free to share. The Software does not
-transmit your source code.
 
---------------------------------------------------------------------------------
-5. TERM AND TERMINATION
---------------------------------------------------------------------------------
-This licence takes effect on installation and terminates automatically on the
-earlier of: (a) your breach of any term; or (b) the general availability release
-of the Software. XAgents may terminate it at any time. On termination you must
-stop using the Software and delete all copies.
+   If you report a bug or a wrong finding, we may use that report to improve the
+   software, without owing you anything for it. Please do not send us code or
+   data you are not free to share. ArgusAgent does not transmit your source code
+   anywhere.
 
---------------------------------------------------------------------------------
+
+5. HOW LONG IT LASTS
+
+   This licence ends if you break any term above, and in any case when a general
+   release of ArgusAgent becomes available. We may end it at any time. When it
+   ends, stop using the software and delete your copies.
+
+
 6. NO WARRANTY
---------------------------------------------------------------------------------
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT.
 
---------------------------------------------------------------------------------
-7. LIMITATION OF LIABILITY
---------------------------------------------------------------------------------
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL XAGENTS BE LIABLE FOR
-ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE,
-INCLUDING ANY DECISION TAKEN OR NOT TAKEN IN RELIANCE ON ITS OUTPUT.
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, ACCURACY AND NON-INFRINGEMENT.
 
---------------------------------------------------------------------------------
-8. THIRD-PARTY COMPONENTS
---------------------------------------------------------------------------------
-The Software incorporates third-party open-source components, each licensed under
-its own terms, which continue to govern those components and are unaffected by
-this licence. See THIRD-PARTY-NOTICES.txt distributed with the Software.
 
---------------------------------------------------------------------------------
-9. GENERAL
---------------------------------------------------------------------------------
-This licence is the entire agreement regarding the Software and supersedes any
-prior understanding. If any provision is held unenforceable, the remainder stays
-in effect.
+7. NO LIABILITY
 
-Contact: <FILL IN — legal/contact address before distribution>
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, XAGENTS IS NOT LIABLE FOR ANY CLAIM,
+   DAMAGE OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE, INCLUDING ANY
+   DECISION TAKEN OR NOT TAKEN BECAUSE OF ITS OUTPUT.
 
---------------------------------------------------------------------------------
-NOTE TO THE PUBLISHER (delete before distribution)
---------------------------------------------------------------------------------
-This text was drafted as a working starting point and has NOT been reviewed by a
-lawyer. Section 8 is load-bearing: the Software bundles third-party dependencies
-(pydantic, httpx, jsonschema, radon, tree-sitter and ten tree-sitter grammars)
-whose licences impose attribution obligations you must satisfy in
-THIRD-PARTY-NOTICES.txt. Some open-source licences also constrain how you may
-distribute a work that links or bundles them. Have counsel review this, and the
-dependency licence set, before public distribution.
+
+8. BUNDLED OPEN-SOURCE COMPONENTS
+
+   ArgusAgent includes third-party open-source components. Each one stays under
+   its own licence, and nothing in this licence changes that. They are listed in
+   THIRD-PARTY-NOTICES.txt, which ships alongside this file.
+
+
+9. CONTACT
+
+   Questions, bug reports and wrong findings:
+   https://github.com/XAgents-ai/argus-agent-releases/issues
