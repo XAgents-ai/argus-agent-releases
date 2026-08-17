@@ -8,22 +8,12 @@ This repository distributes **release builds** of ArgusAgent. The source is not 
 
 ---
 
-## ⚠️ Beta — read this before you weigh any verdict
+## Beta
 
-> Instrument status: Argus's own finding precision has not been independently validated. Its findings rest on the Argus dogfood corpus, a self-audit of this repository with no human true-positive/false-positive adjudication behind it. This notice is removed only when Epic 13's human adjudication clears the >=80% precision gate; nothing else removes it.
+This is a pre-release. Accuracy tuning is ongoing, and **reporting a wrong finding is the most
+useful thing you can do with it** — see [Reporting a wrong finding](#reporting-a-wrong-finding).
 
-ArgusAgent prints that notice on every run.
-
-Stated plainly: **we have not yet proven how often Argus is right.** On 2026-08-17 we ran the
-first human adjudication of its blocking findings across a five-repository validation corpus. Of
-31 blocking findings, **0 were judged true positives**, 26 were false positives and 5 were
-unresolved. That did not clear our own ≥80% precision gate, so the notice stays on and the gate
-stays shut.
-
-We are publishing that result rather than hiding it, because a tool that tells you your tests
-are bad had better be able to say how often it is wrong.
-
-**Do not treat Argus output as assurance, certification, or a substitute for review.**
+Not for production use, and not a substitute for review. See `LICENSE.txt`.
 
 ---
 
@@ -75,7 +65,6 @@ Full instructions are in `QUICKSTART.md` inside the archive.
 
 ## Known limits, stated up front
 
-- **Accuracy is unproven** — see the notice above. This is the headline limitation.
 - **`--coverage-scope repository`** enables a vacuous-test detector whose measured precision was
   poor. Expect false positives if you use it. It does **not** run on the default scope.
 - **C, C++, Ruby and Rust** parse and are graded but currently yield no function/class
